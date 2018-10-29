@@ -28,6 +28,17 @@ public class Main {
 //
 //        OpenLock openLock = new OpenLock();
 //        System.out.println(openLock.openLock(deadLock, target));
+//        int[] arr = {0,1,1,0};
+//        MinCostStair m = new MinCostStair();
+//        System.out.println(m.minCostClimbingStairs(arr));
 
+//        String s = "abc";
+//        String b = new StringBuilder(s).reverse().toString();
+        int[][] times = {{2,1,1}, {2,3,1},{3,4,1}};
+        int N = 4;
+        int K = 2;
+
+        NetworkDelayTime m = new NetworkDelayTime();
+        m.networkDelayTime(times, N, K);
     }
 }
